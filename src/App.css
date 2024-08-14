@@ -1,0 +1,531 @@
+/* app.css */
+
+/* ------------------------------
+       banner section CSS
+ --------------------------- */
+.navbar a {
+    background: none;
+    border: none;
+    color: inherit;
+    font: inherit;
+    cursor: pointer;
+}
+
+.navbar .active-nav-link {
+    color: #4CAF50;
+    /* Custom active color */
+    font-weight: bold;
+}
+
+.banner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* width: 1440px; */
+    height: 640px;
+    padding: 64px 160px;
+    gap: 10px;
+    opacity: 1;
+    background-color: #4CAF50;
+}
+
+.h3-text {
+    font-family: 'Poppins', sans-serif;
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 31.5px;
+    text-align: left;
+    width: 286px;
+    height: 32px;
+    color: #0E2510;
+    margin-bottom: 10px;
+}
+
+.h1-text {
+    font-family: 'Sora', sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 57.6px;
+    color: #FEFEFE;
+}
+
+.p-text {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    width: 510px;
+    height: 48px;
+    color: #F5F5F5;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 512px;
+    height: 512px;
+}
+
+.button {
+    background-color: white;
+    color: #0E2510;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+/* ------------------------------
+       mission section CSS
+ --------------------------- */
+
+.section-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 31.5px;
+    color: #4CAF50;
+}
+
+
+.all-stats {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.stat {
+    background-color: #F3FAF3;
+    padding: 20px;
+    border-radius: 8px;
+    /* text-align: center; */
+}
+
+.stat h5 {
+    font-family: 'Sora', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: #0E2510;
+    margin-bottom: 5px;
+}
+
+.stat p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #6D6D6D;
+}
+
+.stat-image {
+    width: 48px;
+    height: 64px;
+    padding: 2px 2px 12px 2px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+/* ------------------------------
+       product section CSS
+ --------------------------- */
+
+.section-container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 8%;
+}
+
+.no-rounded {
+    border-radius: 0 !important;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 10px;
+}
+
+.card-image-style {
+    height: 398px;
+}
+
+.card-body-style {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+}
+
+.card-title-style {
+    font-family: 'Sora', sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 57.6px;
+    color: #FEFEFE;
+}
+
+.card-description {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #F5F5F5;
+}
+
+.see-button {
+    cursor: pointer;
+    text-align: right !important;
+    font-family: 'Poppins';
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 31.5px;
+    color: #0E2510;
+    margin-right: 10%;
+}
+
+.see-button:hover {
+    color: #16bd3b;
+}
+
+
+/* ------------------------------
+       service section CSS
+ --------------------------- */
+.service-card-container {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.service-button {
+    background-color: #4CAF50;
+    color: #F3FAF3;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+
+/* ------------------------------
+       expert section CSS
+ --------------------------- */
+
+.text-container {
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.text-container .quote-mark {
+    color: #16bd3b;
+    font-family: 'Sora';
+    font-size: 80px;
+    font-weight: 600;
+    line-height: 96px;
+    text-align: left;
+}
+
+
+/* ------------------------------
+       chose section CSS
+ --------------------------- */
+.chose-card-container {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+/* .chose-card {
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+/* gap: 5%;
+margin-top: 4%;
+} */
+
+/* .chose-image {
+    /* width: 480px;
+    height: 386px; */
+/* border-radius: 12px; */
+
+/* .chose-content {
+    /* text-align: left;
+    align-items: center; */
+/* margin-bottom: 20px; */
+
+
+*/
+/* ------------------------------
+       review section CSS
+ --------------------------- */
+
+.review-section-container {
+    text-align: center;
+    margin-top: 10%;
+    font-family: 'Sora';
+}
+
+
+.review-card {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 2%;
+    margin: 5% auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #F3FAF3;
+    width: 1088px;
+    height: 402px;
+    padding: 40px 56px 40px 56px;
+    gap: 0px;
+    border-radius: 16px 0px 0px 0px;
+    opacity: 0px;
+    position: inherit;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .review-card {
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        padding: 2%;
+        margin: 5% auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: 10px;
+        background-color: #F3FAF3;
+        width: 1088px;
+        height: auto;
+        padding: 40px 56px 40px 56px;
+        gap: 0px;
+        border-radius: 16px 0px 0px 0px;
+        opacity: 0px;
+        position: inherit;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+    .review-card {
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        padding: 2%;
+        margin: 5% auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: 10px;
+        background-color: #F3FAF3;
+        width: 1088px;
+        height: auto;
+        padding: 40px 56px 40px 56px;
+        gap: 0px;
+        border-radius: 16px 0px 0px 0px;
+        opacity: 0px;
+        position: inherit;
+    }
+
+}
+
+.review-content {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.quote-mark {
+    color: #16bd3b;
+    font-family: 'Sora';
+    font-size: 80px;
+    font-weight: 600;
+    text-align: left;
+}
+
+.review-content h3 {
+    font-family: 'Sora';
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 35.1px;
+    text-align: left;
+    color: #121212;
+}
+
+.review-content small {
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.author-image img {
+    width: 294px;
+    height: 294px;
+    gap: 0px;
+    border-radius: 20px;
+    border: 4px solid #4CAF50;
+    opacity: 0px;
+    object-fit: cover;
+    margin-bottom: 70%;
+    margin-left: 30%;
+    position: relative;
+}
+
+.botton-circle {
+    /* margin-left: 12%;
+    margin-right: 12%; */
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #34c759;
+    color: #ffffff;
+    text-align: center;
+    line-height: 40px;
+    font-size: 1.5rem;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+/* ------------------------------
+       footer section CSS
+ --------------------------- */
+
+.social-icons {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    gap: 10px;
+}
+
+
+/* ------------------------------
+       about page CSS
+ --------------------------- */
+
+.banner-container {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.aboutImage {
+    width: 1120px;
+    height: 596px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+/* ------------------------------
+       contact page CSS
+ --------------------------- */
+
+.description-style {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 31.5px;
+    text-align: left;
+
+}
+
+.team-member-container {
+    margin-left: 12%;
+    margin-right: 12%;
+    margin-top: 10%;
+    margin-bottom: 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.team-card {
+    width: 352px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #F3FAF3;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    opacity: 0px;
+    position: inherit;
+}
+
+.profile-image img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 2%;
+    margin-left: 5%;
+    position: relative;
+    opacity: 0px;
+    margin-top: -40%;
+}
+
+
+.member-details {
+    margin-top: 10px;
+}
+
+.team-member-name {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 46.8px;
+    text-align: left;
+    color: #4CAF50;
+}
+
+.team-member-designation {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #6D6D6D
+}
+
+.contact-info {
+    margin-top: 15px;
+}
+
+.flex-style {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.contact-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+
+
+/* ------------------------------
+       profile page CSS
+ --------------------------- */
